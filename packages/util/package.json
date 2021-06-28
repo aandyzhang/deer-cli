@@ -1,6 +1,6 @@
 {
   "name": "@deer-cli/util",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "> TODO: description",
   "author": "andy <andy@qq.com>",
   "homepage": "https://github.com/zhangboyang123/deer-cli/tree/main/packages/util#readme",
@@ -25,7 +25,5 @@
   },
   "bugs": {
     "url": "https://github.com/zhangboyang123/deer-cli/issues"
-  },
-  "dependencies": {
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@deer-cli/core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "core",
   "author": "andy <andy@qq.com>",
   "homepage": "https://github.com/zhangboyang123/deer-cli/tree/main/packages/core#readme",
@@ -27,6 +27,6 @@
     "url": "https://github.com/zhangboyang123/deer-cli/issues"
   },
   "dependencies": {
-    "@deer-cli/util": "^0.0.1"
+    "@deer-cli/util": "^0.0.2"
   }
 }
