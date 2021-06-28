@@ -1,0 +1,22 @@
+{
+  "name": "deer-cli",
+  "version": "0.0.1",
+  "description": "deer-cli 通用脚手架工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangboyang123/deer-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangboyang123/deer-cli/issues"
+  },
+  "homepage": "https://github.com/zhangboyang123/deer-cli#readme",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
