@@ -5,7 +5,10 @@
   "author": "andy <andy@qq.com>",
   "homepage": "https://github.com/zhangboyang123/deer-cli/tree/main/packages/core#readme",
   "license": "ISC",
-  "main": "lib/core.js",
+  "main": "bin/index.js",
+  "bin": {
+    "deer-cli": "bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -27,6 +30,15 @@
     "url": "https://github.com/zhangboyang123/deer-cli/issues"
   },
   "dependencies": {
-    "@deer-cli/util": "^0.0.2"
+    "@deer-cli/log": "file:../../utils/log",
+    "@deer-cli/utils": "file:../../utils/utils",
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "import-local": "^3.0.2",
+    "npmlog": "^4.1.2",
+    "path-exists": "^4.0.0",
+    "root-check": "^1.0.0",
+    "semver": "^7.3.5",
+    "user-home": "^3.0.0"
   }
 }
